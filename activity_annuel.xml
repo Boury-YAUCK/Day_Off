@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Annuel">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Congé Annuel"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/titre"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/titre"
+        android:text="Conformément au code du travail, le congé annuel est accordé a tous les travailleurs au bout d'une année de service.
+                        Un employé a droit à un congé annuel payé de 24 jours apres avoir preste au moins douze mois de service.
+"
+        android:textSize="20dp"
+        />
+
+</RelativeLayout>

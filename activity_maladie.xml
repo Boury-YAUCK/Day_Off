@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MaladieActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Congé maladie"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/titre1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/titre1"
+        android:text="Un arrêt maladie ou arrêt de travail pour maladie, parfois intitulé « congé maladie », permet une indemnisation couvrant la période pendant laquelle un employé interrompt son travail pour cause de maladie.
+En cas de maladies empêchant le travailleur d’effectuer son travail, celui ci peut bénéficier d’un congé maladie dont la durée ne peut excéder 6 mois. Cependant celle ci peut être portée à 10 mois en fonction de son ancienneté:
+
+    8 mois pour les salaries totalisant 7 à 15 ans d’ancienneté
+    10 mois au delà
+"
+        android:textSize="20dp"
+        />
+
+</RelativeLayout>

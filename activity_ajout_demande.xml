@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AjoutDemandeActivity">
+
+    <ImageView
+        android:id="@+id/imgdemande1"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/demande" />
+
+
+    <TextView
+        android:id="@+id/tcni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="Cni"
+        android:layout_below="@+id/imgdemande1"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp" />
+
+    <EditText
+        android:id="@+id/cni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgdemande1"
+        android:layout_marginStart="170dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="15dp"
+ />
+
+    <TextView
+        android:id="@+id/tnom"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tcni"
+        android:layout_marginTop="20sp"
+        android:text="Prenom et Nom"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp" />
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cni"
+        android:layout_marginStart="170sp"
+         />
+
+
+    <TextView
+        android:id="@+id/tdemande"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tnom"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="10dp"
+        android:text="Date demande"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp" />
+
+    <EditText
+        android:id="@+id/demande"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nom"
+        android:layout_marginStart="170sp"
+        android:layout_marginLeft="170sp"
+        />
+
+
+    <TextView
+        android:id="@+id/ttype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tdemande"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20sp"
+        android:text="Type de congé"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/demande"
+        android:layout_marginStart="170sp"
+        android:layout_marginLeft="170sp"
+ />
+
+
+
+    <TextView
+        android:id="@+id/tmotif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ttype"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20sp"
+        android:text="Motif"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/motif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/type"
+        android:layout_marginStart="170sp"
+        android:layout_marginLeft="170sp"
+         />
+
+    <TextView
+        android:id="@+id/tdepart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/motif"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20sp"
+        android:text="Date de depart"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/depart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/motif"
+        android:layout_marginStart="170sp"
+        android:layout_marginLeft="170sp"
+         />
+
+    <TextView
+        android:id="@+id/tretour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/depart"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20sp"
+        android:text="Date de retour"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/retour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/depart"
+        android:layout_marginStart="170sp"
+        android:layout_marginLeft="170sp"
+         />
+
+    <TextView
+        android:id="@+id/tnbrjr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tretour"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20sp"
+        android:text="Nbr de jour"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nbrjr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/retour"
+        android:layout_marginStart="170sp"
+        android:layout_marginLeft="170sp"
+        />
+
+    <Button
+        android:id="@+id/adddemande"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nbrjr"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="37dp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/gradient"
+        android:gravity="center"
+        android:text="Valider"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
